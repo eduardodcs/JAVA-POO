@@ -1,0 +1,21 @@
+package br.com.alura.io.teste;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class TestesEscrita {
+
+	public static void main(String[] args) throws IOException {
+
+		BufferedWriter bw = new BufferedWriter(new FileWriter("Lorem2.txt"));
+		
+		bw.write("fsdfsdf dfsd fsoidfsd089fusddf09dsf f sdf98yfshdfsd f sd");
+		bw.newLine();
+		bw.write("fsdfsdf sd");
+		
+		bw.close();
+		
+	}
+
+}

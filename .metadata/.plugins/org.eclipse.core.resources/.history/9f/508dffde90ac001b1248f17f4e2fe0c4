@@ -1,0 +1,15 @@
+
+public class TesteReferencias {
+	public static void main(String[] args) {
+		
+		Gerente gerente = new Gerente();
+		gerente.setSalario(5000.00);
+		gerente.getBonificacao();
+		
+		
+		
+		Analista analista = new Analista();
+		analista.setSalario(2000.00);
+		analista.getBonificacao();
+	}
+}

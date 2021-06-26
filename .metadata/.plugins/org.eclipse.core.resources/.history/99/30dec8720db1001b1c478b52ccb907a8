@@ -1,0 +1,27 @@
+package br.com.alura;
+
+import java.util.ArrayList;
+
+public class TestandoLista {
+
+	public static void main(String[] args) {
+		String aula1 = "Aula 01";
+		String aula2 = "Aula 02";
+		String aula3 = "Aula 03";
+		
+		ArrayList<String> aulas = new ArrayList<>();
+		aulas.add(aula1);
+		aulas.add(aula2);
+		aulas.add(aula3);
+		
+		System.out.println(aulas);
+		aulas.remove(0);
+		System.out.println(aulas);
+		
+		for (String aula : aulas) {
+			System.out.println("Nome da Aula: " + aula);			
+		}
+
+	}
+
+}

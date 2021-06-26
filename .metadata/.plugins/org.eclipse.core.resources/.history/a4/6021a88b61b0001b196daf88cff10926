@@ -1,0 +1,36 @@
+package br.com.alura.io.teste;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class TestesEscrita2 {
+
+	public static void main(String[] args) throws Exception {
+		
+		Scanner scanner = new Scanner(new File("contas.csv"));
+
+		while(scanner.hasNextLine()) {
+			String linha = scanner.nextLine();
+			System.out.println(linha);
+					
+			Scanner linhasScanner = new Scanner(linha);
+			linhasScanner.useDelimiter(",");
+			String valor1 = linhasScanner.next();
+			String valor2 = linhasScanner.next();
+			String valor3 = linhasScanner.next();
+			String valor4 = linhasScanner.next();
+			String valor5 = linhasScanner.next();
+			
+			System.out.println(valor1 + valor2 + valor3 + valor4 + valor5);
+			
+//			String[] valores = linha.split(",");
+//			System.out.println(Arrays.toString(valores));
+			
+			linhasScanner.close();
+		}
+	
+		scanner.close();
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;bytebank-interface/src&apos;&#x0D;&#x0A;- Original project: &apos;bytebank-herado-conta&apos;&#x0D;&#x0A;- Destination element: &apos;bytebank-interface/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ContaCorrente.java&#x0D;&#x0A;     Cliente.java&#x0D;&#x0A;     ContaPoupanca.java&#x0D;&#x0A;     TesteConta.java&#x0D;&#x0A;     Conta.java" description="Copy compilation units" destination="=bytebank-interface/src" element1="/src&lt;{ContaCorrente.java" element2="/src&lt;{Cliente.java" element3="/src&lt;{ContaPoupanca.java" element4="/src&lt;{TesteConta.java" element5="/src&lt;{Conta.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1620269527112" units="5" version="1.0"/>
+</session>
